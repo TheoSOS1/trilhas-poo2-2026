@@ -11,7 +11,7 @@ public class Main {
        UsuarioDAO dao = new UsuarioDAO();
 
        // CADASTRO
-       Usuario u1 = new Usuario("Carlos", "carlos@email.com", "1234");
+       Usuario u1 = new Usuario("Camila", "camila@email.com", "123");
        dao.cadastrar(u1);
 
        // LOGIN
